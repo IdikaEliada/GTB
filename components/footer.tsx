@@ -12,25 +12,24 @@ export function Footer() {
             </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-            Zurri AI Models Lab is your all-in-one platform to browse, launch, and monetize AI models and intelligent
-            agents.
+            Global Team Builders is your fastest route to wealth, health & global success. Join the global team partnered with S.B.I and tap into the revolutionary Stem Cell Activator movement.
               </p>
             </div>
 
             <div>
             <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
             <div className="space-y-3">
-            <a href="#" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
-            About
+            <a href="#why" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
+            Why Us
             </a>
-            <a href="#" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
-            Model
+            <a href="#activation" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
+            Activation
             </a>
-            <a href="#" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
-            Datasets
+            <a href="#earnings" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
+            Earnings
             </a>
-            <a href="#" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
-            Contact Us
+            <a href="#join" className="block text-muted-foreground hover:text-foreground text-sm transition-colors">
+            Join
             </a>
             </div>
             </div>
@@ -71,7 +70,7 @@ export function Footer() {
 
             <div className="border-t border-border pt-8">
             <div className="text-center mb-6">
-            <p className="text-muted-foreground text-sm">Copyright@Zurrilabs2025, All right reserved</p>
+            <p className="text-muted-foreground text-sm">Copyright@GlobalTeamBuilders2025, All right reserved</p>
             </div>
 
             <div className="flex justify-center items-center space-x-8 opacity-60">

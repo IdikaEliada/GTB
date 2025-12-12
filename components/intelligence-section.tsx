@@ -17,7 +17,7 @@ export function IntelligenceSection() {
           </div>
 
           <div>
-            <div className="inline-flex items-center px-4 py-2 bg-gray-900 text-white text-sm font-medium rounded-full mb-6">
+            <div className="inline-flex items-center px-6 py-3 bg-red-600 text-white text-base font-bold rounded-full mb-6 shadow-lg">
               Who We're Looking For
             </div>
 
