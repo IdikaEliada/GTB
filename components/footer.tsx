@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
             <span className="text-2xl font-bold text-[#5C4DFF]">
-            <Image src="/logo.png" alt={"logo"} width={78} height={36}/>
+            <Image src="/new%20images/logo.svg" alt={"logo"} width={78} height={78}/>
             </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">

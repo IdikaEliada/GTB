@@ -15,13 +15,23 @@ export function CTASection() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-          Welcome to Global Team Builders Where Your Success is Built for You
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 uppercase tracking-wide">
+          GLOBAL TEAM BUILDERS
+        </h1>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6">
+          Your Fastest Route to Wealth, Health & Global Success
         </h2>
-        <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-          You activate your account, we build your global team, you earn weekly. This is your turning point health,
-          wealth, and global expansion in one move.
-        </p>
+        <div className="space-y-4 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-200 font-medium">
+            Ambitious? Hungry for Success?
+          </p>
+          <p className="text-lg md:text-xl text-gray-200">
+            Ready to break free from financial limits and start earning without building a network alone?
+          </p>
+          <p className="text-lg md:text-xl text-gray-200">
+            Join the global team partnered with S.B.I and tap into the revolutionary Stem Cell Activator movement.
+          </p>
+        </div>
         <Link href="/signup">
           <Button
             size="lg"

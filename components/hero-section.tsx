@@ -14,11 +14,8 @@ export function HeroSection() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="max-w-4xl mx-auto text-center relative z-10 space-y-6">
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight text-white">
-          GLOBAL TEAM BUILDERS
-        </h1>
         <p className="text-xl md:text-2xl text-white leading-relaxed font-semibold">
-          WELCOME TO GLOBAL TEAM BUILDERS WHERE YOUR SUCCESS IS BUILD FOR YOU.
+          WELCOME TO GLOBAL TEAM BUILDERS WHERE YOUR SUCCESS IS BUILT FOR YOU.
         </p>
         <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
           We sign you up into S.B.I, our anchor program for free. You activate your account by buying two downlines.We take it up from there and build a global team for you.You earn weekly.This is your turning point,health,wealth and global expansion in one move.
