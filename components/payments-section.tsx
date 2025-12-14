@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button"
-import { Check } from "lucide-react"
 import Link from "next/link"
 
 export function PaymentsSection() {
@@ -8,93 +7,89 @@ export function PaymentsSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-block bg-[#0A0F29] text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
-              Wellness + Wealth
+            <div className="inline-block bg-[#0F172A] text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
+              WHAT IS ALLIMAX
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0A0F29] mb-4">
-              Stem Cell Activation that powers your journey.
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Allimax Stem Cell Stimulator
             </h2>
-            <p className="text-[#848794] mb-8 text-lg">
-              A Stem Cell Activator supports your body to repair itself naturally boosting energy, immunity, and
-              rejuvenation as you start earning.
+            <p className="text-muted-foreground mb-6 text-lg">
+              Allimax Stem Cell Stimulator is manufactured by Straight Business Limited (S.B.I), an international healthcare company producing world-class wellness products, including the revolutionary Stem Cell Stimulator that is transforming lives around the world.
+            </p>
+            <p className="text-muted-foreground mb-6 text-lg">
+              These premium products support your health, energy, and mental clarity as you begin your journey.
+            </p>
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              What Does a Stem Cell Stimulator Do?
+            </h3>
+            <p className="text-muted-foreground mb-6 text-lg">
+              A Stem Cell Activator helps your body repair itself naturally by supporting the production and activation of your own stem cells.
+            </p>
+            <h4 className="text-xl md:text-2xl font-semibold text-foreground mb-4">
+              Key Benefits of Stem Cell Activation
+            </h4>
+            <div className="space-y-4 mb-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Rejuvenates damaged tissues</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Boosts energy and vitality</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Strengthens the immune system</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Enhances natural healing</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Slows aging and promotes youthful health</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Improves organ function and cellular repair</span>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <span className="text-muted-foreground text-lg">Supports overall wellness and longevity</span>
+              </div>
+            </div>
+            <p className="text-muted-foreground text-lg font-medium">
+              Stem cell technology is ranked among today's top breakthroughs in global healthcare.
             </p>
 
-            <div className="space-y-6 mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 flex items-center justify-center mt-1">
-                  <img src="/icons/all-in-one.svg" alt="Rejuvenate icon" className="w-6 h-6" />
-                </div>
-                <span className="text-[#848794] text-lg">Rejuvenates tissues and enhances natural healing.</span>
-              </div>
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 flex items-center justify-center mt-1">
-                  <img src="/icons/built-in.svg" alt="Energy icon" className="w-6 h-6" />
-                </div>
-                <span className="text-[#848794] text-lg">Boosts energy, vitality, and immune strength.</span>
-              </div>
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 flex items-center justify-center mt-1">
-                  <img src="/icons/rich-responsive.svg" alt="Longevity icon" className="w-6 h-6" />
-                </div>
-                <span className="text-[#848794] text-lg">Supports longevity, organ function, and youthful health.</span>
-              </div>
-            </div>
-
             <Link href="/signup">
-              <Button className="bg-[#5C4DFF] hover:bg-[#5C4DFF]/90 text-white px-8 py-3 rounded-full text-lg">
+              <Button className="bg-[#14532D] hover:bg-[#047857] text-white px-8 py-3 rounded-full text-lg">
                 Sign Up Free
               </Button>
             </Link>
           </div>
 
           <div className="relative">
-            <div className="bg-gradient-to-br from-[#8B5CF6] to-[#A855F7] rounded-2xl p-8">
-              <div className="space-y-4">
-                <div className="bg-white rounded-xl p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <h3 className="font-semibold text-[#0A0F29] text-lg">Activation Kit</h3>
-                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                      <Check className="w-4 h-4 text-white" />
-                    </div>
-                  </div>
-
-                  <div className="space-y-3 mb-6">
-                    <div className="flex items-center space-x-3">
-                      <div className="w-5 h-5 bg-green-500 rounded-sm flex items-center justify-center">
-                        <Check className="w-3 h-3 text-white" />
-                      </div>
-                      <span className="text-[#848794]">Two bottles of Allimax Stem Cell Activator</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <div className="w-5 h-5 bg-green-500 rounded-sm flex items-center justify-center">
-                        <Check className="w-3 h-3 text-white" />
-                      </div>
-                      <span className="text-[#848794]">Instant access to the Global Team Builders system</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <div className="w-5 h-5 bg-green-500 rounded-sm flex items-center justify-center">
-                        <Check className="w-3 h-3 text-white" />
-                      </div>
-                      <span className="text-[#848794]">Your team starts growing after activation</span>
-                    </div>
-                  </div>
-
-                  <Link href="/signup">
-                    <Button className="w-full bg-[#5C4DFF] hover:bg-[#5C4DFF]/90 text-white rounded-full py-3">
-                      Activate & Earn
-                    </Button>
-                  </Link>
-                </div>
-
-                <div className="bg-white rounded-xl p-4 flex items-center justify-between">
-                  <div>
-                    <h3 className="font-semibold text-[#0A0F29]">One-Time Activation</h3>
-                    <span className="text-green-600 font-semibold">₦57,000 or $41</span>
-                    <p className="text-[#848794] text-sm">Covers downlines + processing enrollment stays free.</p>
-                  </div>
-                  <div className="w-5 h-5 border-2 border-gray-300 rounded-full"></div>
-                </div>
-              </div>
+            <div className="rounded-2xl overflow-hidden">
+              <img
+                src="/correct%20images/what%20is%20allemax.jpeg"
+                alt="What is Allimax"
+                className="w-full h-auto rounded-2xl"
+              />
             </div>
           </div>
         </div>

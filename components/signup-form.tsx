@@ -40,14 +40,14 @@ export function SignupForm() {
   }
 
   return (
-    <section className="w-full py-20 px-6 bg-gradient-to-b from-white to-[#F0FFF0]">
+    <section className="w-full py-20 px-6 bg-background">
       <div className="max-w-3xl mx-auto">
         <Card className="border-2 shadow-lg">
           <CardHeader className="text-center space-y-2">
-            <CardTitle className="text-3xl md:text-4xl font-bold text-[#0A0F29]">
+            <CardTitle className="text-3xl md:text-4xl font-bold text-foreground">
               Join Global Team Builders
             </CardTitle>
-            <CardDescription className="text-lg text-[#848794]">
+            <CardDescription className="text-lg text-muted-foreground">
               Fill in your details to get started on your journey to wealth and success
             </CardDescription>
           </CardHeader>
@@ -56,8 +56,8 @@ export function SignupForm() {
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Name */}
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-[#0A0F29] font-semibold">
-                    Name <span className="text-red-500">*</span>
+                  <Label htmlFor="name" className="text-foreground font-semibold">
+                    Name <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="name"
@@ -72,8 +72,8 @@ export function SignupForm() {
 
                 {/* Username */}
                 <div className="space-y-2">
-                  <Label htmlFor="username" className="text-[#0A0F29] font-semibold">
-                    Username <span className="text-red-500">*</span>
+                  <Label htmlFor="username" className="text-foreground font-semibold">
+                    Username <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="username"
@@ -88,8 +88,8 @@ export function SignupForm() {
 
                 {/* Phone Number */}
                 <div className="space-y-2">
-                  <Label htmlFor="phoneNumber" className="text-[#0A0F29] font-semibold">
-                    Phone Number <span className="text-red-500">*</span>
+                  <Label htmlFor="phoneNumber" className="text-foreground font-semibold">
+                    Phone Number <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="phoneNumber"
@@ -104,8 +104,8 @@ export function SignupForm() {
 
                 {/* Email Address */}
                 <div className="space-y-2">
-                  <Label htmlFor="email" className="text-[#0A0F29] font-semibold">
-                    Email Address <span className="text-red-500">*</span>
+                  <Label htmlFor="email" className="text-foreground font-semibold">
+                    Email Address <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="email"
@@ -120,8 +120,8 @@ export function SignupForm() {
 
                 {/* Address */}
                 <div className="space-y-2 md:col-span-2">
-                  <Label htmlFor="address" className="text-[#0A0F29] font-semibold">
-                    Address <span className="text-red-500">*</span>
+                  <Label htmlFor="address" className="text-foreground font-semibold">
+                    Address <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="address"
@@ -136,8 +136,8 @@ export function SignupForm() {
 
                 {/* City */}
                 <div className="space-y-2">
-                  <Label htmlFor="city" className="text-[#0A0F29] font-semibold">
-                    City <span className="text-red-500">*</span>
+                  <Label htmlFor="city" className="text-foreground font-semibold">
+                    City <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="city"
@@ -152,8 +152,8 @@ export function SignupForm() {
 
                 {/* State */}
                 <div className="space-y-2">
-                  <Label htmlFor="state" className="text-[#0A0F29] font-semibold">
-                    State <span className="text-red-500">*</span>
+                  <Label htmlFor="state" className="text-foreground font-semibold">
+                    State <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="state"
@@ -168,8 +168,8 @@ export function SignupForm() {
 
                 {/* Gender */}
                 <div className="space-y-2">
-                  <Label htmlFor="gender" className="text-[#0A0F29] font-semibold">
-                    Gender <span className="text-red-500">*</span>
+                  <Label htmlFor="gender" className="text-foreground font-semibold">
+                    Gender <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Select
                     value={formData.gender}
@@ -189,8 +189,8 @@ export function SignupForm() {
 
                 {/* Age */}
                 <div className="space-y-2">
-                  <Label htmlFor="age" className="text-[#0A0F29] font-semibold">
-                    Age <span className="text-red-500">*</span>
+                  <Label htmlFor="age" className="text-foreground font-semibold">
+                    Age <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="age"
@@ -206,8 +206,8 @@ export function SignupForm() {
 
                 {/* Bank Name */}
                 <div className="space-y-2">
-                  <Label htmlFor="bankName" className="text-[#0A0F29] font-semibold">
-                    Bank Name <span className="text-red-500">*</span>
+                  <Label htmlFor="bankName" className="text-foreground font-semibold">
+                    Bank Name <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="bankName"
@@ -222,8 +222,8 @@ export function SignupForm() {
 
                 {/* Account Name */}
                 <div className="space-y-2">
-                  <Label htmlFor="accountName" className="text-[#0A0F29] font-semibold">
-                    Account Name <span className="text-red-500">*</span>
+                  <Label htmlFor="accountName" className="text-foreground font-semibold">
+                    Account Name <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="accountName"
@@ -238,8 +238,8 @@ export function SignupForm() {
 
                 {/* Account Number */}
                 <div className="space-y-2 md:col-span-2">
-                  <Label htmlFor="accountNumber" className="text-[#0A0F29] font-semibold">
-                    Account Number <span className="text-red-500">*</span>
+                  <Label htmlFor="accountNumber" className="text-foreground font-semibold">
+                    Account Number <span className="text-[#7F1D1D]">*</span>
                   </Label>
                   <Input
                     id="accountNumber"
@@ -256,13 +256,13 @@ export function SignupForm() {
               <div className="pt-4">
                 <Button
                   type="submit"
-                  className="w-full bg-[#5C4DFF] hover:bg-[#5C4DFF]/90 text-white text-lg py-6 rounded-full font-semibold shadow-lg"
+                  className="w-full bg-[#14532D] hover:bg-[#047857] text-white text-lg py-6 rounded-full font-semibold shadow-lg"
                 >
                   Sign Up Now
                 </Button>
               </div>
 
-              <p className="text-center text-sm text-[#848794]">
+              <p className="text-center text-sm text-muted-foreground">
                 By signing up, you agree to our Terms of Service and Privacy Policy
               </p>
             </form>

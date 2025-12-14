@@ -8,10 +8,14 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-            <Link href="/">
-              <span className="text-2xl font-bold text-[#5C4DFF]">
-                <Image src="/new%20images/logo.svg" alt={"logo"} width={78} height={78}/>
-              </span>
+            <Link href="/" className="flex items-center">
+              <Image 
+                src="/new%20images/logo.svg" 
+                alt="Global Team Builders Logo" 
+                width={78} 
+                height={78}
+                className="object-contain"
+              />
             </Link>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">

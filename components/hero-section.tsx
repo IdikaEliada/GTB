@@ -6,7 +6,7 @@ export function HeroSection() {
     <section
       className="relative w-full py-20 px-6 overflow-hidden"
       style={{
-        backgroundImage: "url(/new%20images/How%20to%20Overcome%20Failure%20and%20Move%20on%20in%20Life_.jfif)",
+        backgroundImage: "url(/correct%20images/welcome%20to%20global%20team.jpeg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -14,17 +14,23 @@ export function HeroSection() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="max-w-4xl mx-auto text-center relative z-10 space-y-6">
-        <p className="text-xl md:text-2xl text-white leading-relaxed font-semibold">
-          WELCOME TO GLOBAL TEAM BUILDERS WHERE YOUR SUCCESS IS BUILT FOR YOU.
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 uppercase tracking-wide">
+          GLOBAL TEAM BUILDERS
+        </h1>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6">
+          Your Fastest Route to Wealth, Health & Global Success
+        </h2>
+        <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-3xl mx-auto">
+          A results-driven community that makes global team building simple, fast, and achievable. We combine digital strategies, AI-powered systems, and proven methods to build your team across borders with no technical skills required.
         </p>
-        <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-          We sign you up into S.B.I, our anchor program for free. You activate your account by buying two downlines.We take it up from there and build a global team for you.You earn weekly.This is your turning point,health,wealth and global expansion in one move.
+        <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
+          This is a done-with-you and done-for-you system designed for sustainable growth, real leverage, and long-term income potential.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link href="/signup">
             <Button
               size="lg"
-              className="bg-cyan-400 hover:bg-cyan-500 text-black text-lg px-12 py-4 rounded-full font-semibold shadow-lg"
+              className="bg-[#14532D] hover:bg-[#047857] text-white text-lg px-12 py-4 rounded-full font-semibold shadow-lg"
             >
               Sign Up Free
             </Button>

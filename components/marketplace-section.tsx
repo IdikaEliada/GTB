@@ -3,63 +3,51 @@ import Image from "next/image"
 
 export function MarketplaceSection() {
   return (
-    <section id="activation" className="w-full py-20 px-6 bg-[#F8F9FA]">
+    <section id="activation" className="w-full py-20 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
-          <div className="inline-block bg-[#0A0F29] text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
-            Fast-Track Activation
+          <div className="inline-block bg-[#0F172A] text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
+            HOW IT WORKS
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0A0F29] mb-4">
-            Enroll Free. Activate Once. We Build Your Team.
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            To join the Global Team Builders movement
           </h2>
-          <p className="text-[#848794] text-lg max-w-3xl">
-            Join Global Team Builders under S.B.I with a simple one-time activation. No previous experience required once
-            you activate, we handle the heavy lifting while you earn.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <Image
-              src="/new%20images/Money%20Flying%20In%20The%20Air%20-%20Art%20Print.jfif"
-              alt="Global Team Builders mobile preview"
+              src="/correct%20images/how%20it%20works.jpeg"
+              alt="How it works"
               width={600}
               height={600}
-              className="w-full h-auto"
+              className="w-full h-auto rounded-2xl"
             />
           </div>
 
           <div className="space-y-6">
-            <Card className="bg-[#B794F6] border-0 rounded-2xl">
+            <Card className="bg-[#14532D] border-0 rounded-2xl">
               <CardContent className="p-6">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center mb-4">
                   <div className="w-4 h-4 bg-white rounded"></div>
                 </div>
-                <h3 className="font-semibold text-white text-xl mb-2">Activate Your Account</h3>
-                <p className="text-white/80 text-sm mb-4 space-y-2">
-                  <span className="block">Registration: Free</span>
-                  <span className="block">Buy two downlines to activate: ₦52,000 or $37</span>
-                  <span className="block">Processing fee: ₦5,000 or $4</span>
-                  <span className="block font-semibold">Total one-time activation: ₦57,000 or $41</span>
-                </p>
-                <div className="flex items-center text-white font-medium">
-                  We set you up no stress.
+                <h3 className="font-semibold text-white text-xl mb-4">Activation Steps</h3>
+                <div className="text-white/90 text-sm mb-4 space-y-2">
+                  <p className="block">Registration: Free</p>
+                  <p className="block">Activate Your Account: Buy Two Downlines at ₦52,000 or $37</p>
+                  <p className="block">Processing Fee: ₦5,000 or $4</p>
                 </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-[#63B3ED] border-0 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center mb-4">
-                  <div className="w-4 h-4 bg-white rounded"></div>
-                </div>
-                <h3 className="font-semibold text-white text-xl mb-2">Activation Bonus</h3>
-                <p className="text-white/80 text-sm mb-4">
-                  Immediately after activation, you receive two bottles of Allimax Stem Cell Activator premium wellness
-                  support as you start your wealth journey.
+                <p className="text-white font-semibold mb-4">
+                  This one-time activation unlocks your earnings, awards in S.B.I, and full access to the Global Team Builders automated system.
                 </p>
-                <div className="flex items-center text-white font-medium">
-                  Stay energized, healthy, and mentally sharp.
+                <div className="mt-6 space-y-2">
+                  <p className="text-white font-semibold mb-2">After activation, Global Team Builders takes it from there:</p>
+                  <p className="text-white/90 text-sm">We take full responsibility to build your team</p>
+                  <p className="text-white/90 text-sm">We integrate you into our global strategy</p>
+                  <p className="text-white/90 text-sm">You start earning weekly commissions</p>
+                  <p className="text-white/90 text-sm">You become eligible for awards</p>
+                  <p className="text-white/90 text-sm">You receive two bottles of Allimax stem cell stimulator as part of your activation.</p>
+                  <p className="text-white font-medium mt-4">All while you watch your team grow.</p>
                 </div>
               </CardContent>
             </Card>

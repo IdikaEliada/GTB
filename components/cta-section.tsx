@@ -15,27 +15,41 @@ export function CTASection() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 uppercase tracking-wide">
-          GLOBAL TEAM BUILDERS
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 uppercase tracking-wide">
+          Today Is Your Turning Point
         </h1>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6">
-          Your Fastest Route to Wealth, Health & Global Success
+        <div className="space-y-4 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-white font-semibold">
+            You don't build the team.
+          </p>
+          <p className="text-xl md:text-2xl text-white font-semibold">
+            You don't struggle alone.
+          </p>
+          <p className="text-xl md:text-2xl text-white font-semibold">
+            You don't grind endlessly.
+          </p>
+          <p className="text-xl md:text-2xl text-white font-semibold mt-6">
+            You activate your account. We build the team. You earn.
+          </p>
+          <p className="text-xl md:text-2xl text-white font-bold mt-6">
+            This is the power of Global Team Builders.
+          </p>
+        </div>
+        <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 uppercase tracking-wide">
+          Join Global Team Builders Now
         </h2>
         <div className="space-y-4 mb-8 max-w-2xl mx-auto">
-          <p className="text-xl md:text-2xl text-gray-200 font-medium">
-            Ambitious? Hungry for Success?
-          </p>
           <p className="text-lg md:text-xl text-gray-200">
-            Ready to break free from financial limits and start earning without building a network alone?
+            Take the step that opens the door to health, wealth, global expansion, and a future full of rewards.
           </p>
-          <p className="text-lg md:text-xl text-gray-200">
-            Join the global team partnered with S.B.I and tap into the revolutionary Stem Cell Activator movement.
+          <p className="text-xl md:text-2xl text-white font-bold mt-6">
+            Welcome to Global Team Builders, Where Your Success is Built for You.
           </p>
         </div>
         <Link href="/signup">
           <Button
             size="lg"
-            className="bg-cyan-400 hover:bg-cyan-500 text-black text-lg px-12 py-4 rounded-full font-semibold"
+            className="bg-[#14532D] hover:bg-[#047857] text-white text-lg px-12 py-4 rounded-full font-semibold"
           >
             Sign Up Free
           </Button>

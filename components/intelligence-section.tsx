@@ -7,64 +7,78 @@ export function IntelligenceSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl p-8">
+            <div className="bg-gradient-to-br from-[#14532D] to-[#047857] rounded-3xl p-8">
               <img
-                src="/new%20images/Got%20Grit_%206%20Steps%20to%20Become%20a%20High%20Achiever%20in%20Life%20-%20GoodTherapy_org%20Therapy%20Blog.jfif"
-                alt="Global Team Builders mobile app preview"
-                className="w-full h-auto"
+                src="/correct%20images/who%20we're%20looking%20for.jpeg"
+                alt="Who we're looking for"
+                className="w-full h-auto rounded-2xl"
               />
             </div>
           </div>
 
           <div>
-            <div className="inline-flex items-center px-6 py-3 bg-red-600 text-white text-base font-bold rounded-full mb-6 shadow-lg">
-              Who We're Looking For
+            <div className="inline-flex items-center px-6 py-3 bg-[#7F1D1D] text-white text-base font-bold rounded-full mb-6 shadow-lg">
+              WHO ARE WE LOOKING FOR
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Ambitious, hungry for success, ready to change levels.
+              We're looking for:
             </h2>
-            <p className="text-muted-foreground mb-8">
-              If you are tired of struggling alone and want a business that grows for you, you’re in the right place.
-            </p>
 
-            <div className="space-y-6 mb-8">
+            <div className="space-y-4 mb-8">
               <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src="/icons/built-in.svg" alt="Action taker icon" className="w-6 h-6" />
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Action-takers</h3>
-                  <p className="text-muted-foreground text-sm">
-                    People hungry for success and ready to move fast.
-                  </p>
-                </div>
+                <p className="text-muted-foreground text-lg">Ambitious individuals</p>
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src="/icons/rich-responsive.svg" alt="Team support icon" className="w-6 h-6" />
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Those tired of grinding alone</h3>
-                  <p className="text-muted-foreground text-sm">
-                    We remove the struggle our team and system build with you.
-                  </p>
-                </div>
+                <p className="text-muted-foreground text-lg">Those committed to success</p>
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src="/icons/built-for-creators.svg" alt="Growth icon" className="w-6 h-6" />
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-1">Ready for global growth</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Plug into a global strategy and automated team-building.
-                  </p>
+                <p className="text-muted-foreground text-lg">People ready to achieve financial independence</p>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
                 </div>
+                <p className="text-muted-foreground text-lg">Action-oriented individuals ready to elevate their financial status</p>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <p className="text-muted-foreground text-lg">Those seeking collaborative support</p>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <p className="text-muted-foreground text-lg">Entrepreneurs who want a scalable business model</p>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#14532D] font-bold">•</span>
+                </div>
+                <p className="text-muted-foreground text-lg">Those interested in leveraging global team building</p>
               </div>
             </div>
+
+            <p className="text-foreground font-semibold text-lg mb-8">
+              If this describes you, welcome to your breakthrough.
+            </p>
 
             <Link href="/signup">
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-full">
